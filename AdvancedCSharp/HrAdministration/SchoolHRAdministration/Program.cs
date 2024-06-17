@@ -58,7 +58,9 @@ public class HeadMaster : EmployeeBase
 }
 
 
-
+/// <summary>
+/// Employee Factory that returns an IEmployee instance
+/// </summary>
 public static class EmployeeFactory
 {
     public static IEmployee GetEmployeeInstance(EmployeeType employeeType, int id, string firstName, string lastName, decimal salary)

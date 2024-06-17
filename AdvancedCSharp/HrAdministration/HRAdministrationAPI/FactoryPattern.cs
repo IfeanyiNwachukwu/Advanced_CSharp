@@ -4,9 +4,9 @@
     {
         public static K GetInstance()
         {
-            K objk;
-            objk = new T();
-            return objk;
+            K objk;  //Declares a variable objk of type K.
+            objk = new T(); //Creates a new instance of type T and assigns it to objk
+            return objk; //Returns the created object (objk)
         }
     }
 }
